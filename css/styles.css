@@ -1,0 +1,115 @@
+body {
+    font-family: 'Lato-regular', sans-serif;
+}
+
+ .navbar {
+                margin-bottom: 0;
+                background-color: #1E90FF;
+                z-index: 9999;
+                border: 0;
+                font-size: 14px !important;
+                line-height: 1.42857143 !important;
+                letter-spacing: 4px;
+                border-radius: 0;
+            }
+
+.navbar li a,
+            .navbar .navbar-brand {
+                color: white !important;
+                font-family: 'Lato', sans-serif;
+            }
+            
+            .navbar li a:hover {
+                color: #1E90FF !important;
+                background: white !important;
+            }
+
+            .navbar-nav li.active > a {
+                color: #1E90FF !important;
+                background: white !important;
+            }
+            
+            .dropdown-menu {
+                background: #1E90FF;
+            }
+            
+            .fix-nav {
+                padding-top: 50px;
+            }
+            
+.jumbotron {
+    max-height: 100px;
+    background: #1E90FF;
+    color: white;
+    padding: 25px 25px;
+}                 
+         
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .6;
+}                              
+          
+.futer-container {
+    background-color: rgba(30, 34, 30, 0.918);
+    color: #d3d3d3;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.modal {
+    z-index: 100001 !important;
+  }
+
+  #filter{
+    margin-left: 10px;
+    font-weight : normal;
+  }
+
+ input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    .dozada input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: green;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    .dozane input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: red;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
